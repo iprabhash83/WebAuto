@@ -35,6 +35,8 @@ public class GoogleSearchTest extends BaseActions{
 	@Test()
 	public void googleSearchresultTest() {
 		try {
+			
+			// Script to lunch google page and perform search
 			googleSearchPage = new GoogleSearchPage();
 			googleResultPage = new GoogleResultPage();
 			SoftAssert sAssert = new SoftAssert();
